@@ -121,7 +121,7 @@ public class TechJobs {
             System.out.print("No Results");
         } else {
             for (int x = 0; x < someJobs.size(); x++) {
-                System.out.println();
+                System.out.println();//sae this could solve issue with\n?
                 System.out.println("*****");
                 for (Map.Entry<String, String> listing : someJobs.get(x).entrySet()) {
                     System.out.println(listing.getKey()
